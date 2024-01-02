@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// limit --> upto 1e8
+// limit --> upto 1e8;
+// Complexity Around O(n);
 
 const int sz = 1e6 + 23;
 int mx = 1e6;
