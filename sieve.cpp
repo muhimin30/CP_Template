@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
+
+// limit --> upto 1e8
+
 const int sz = 1e6 + 23;
 int mx = 1e6;
 bitset<sz> is_prime;
