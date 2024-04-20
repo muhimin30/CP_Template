@@ -27,7 +27,8 @@ void prime(){
 }
 
 // can generate upto n == 1e14; 
-// return vector of all prime factoriz
+// return vector of all Prime Factorization
+// complexity (sqrt(n) / ln(sqrt(n))) * 2log(sqrt(n));
 vector<int> primefac(long long n){
 	vector<int> ans;
 
