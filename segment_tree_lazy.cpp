@@ -9,7 +9,7 @@ struct SegT {
   #define r_c ((n << 1) | 1)
 
   ll t[4 * N], lazy[4 * N];
-  ST() {
+  SegT() {
     memset(t, 0, sizeof t);
     memset(lazy, 0, sizeof lazy);
   }
