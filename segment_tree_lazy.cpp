@@ -23,7 +23,7 @@ struct SegT {
     }
     lazy[n] = 0;
   }
-  inline long long combine(long long a,long long b) {
+  ll combine(long long a,long long b) {
     return a + b;
   }
   void pull(int n) {
@@ -64,6 +64,3 @@ struct SegT {
     return combine(query(l_c, b, mid, i, j), query(r_c, mid + 1, e, i, j));
   }
 }st;
-int main() {
-    
-}

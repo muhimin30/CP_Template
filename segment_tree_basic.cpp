@@ -56,5 +56,6 @@ struct SegT{
 		//pull(n);
 		t[n] = t[l_c] + t[r_c];
 	}
+}st;
 
-}ST;
+
