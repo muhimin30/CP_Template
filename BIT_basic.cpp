@@ -4,21 +4,21 @@ using namespace std;
 #define ll long long
 const int N = 1e5 + 23;
 int n; //----> Size of the array
-struct fanT{
-	ll arr[N];
-	fanT(){
-		memset(arr, 0, sizeof(arr));
+struct BIT{
+	ll A[N];
+	BIT(){
+		memset(A, 0, sizeof(A));
 	}
-	void upd(int i, int x){ //---------> add x to ith index
+	void upd(int i, ll x){ //---------> add x to ith index
 		while(i <= n){
-			arr[i] += x;
+			A[i] += x;
 			i += (i & (-i));
 		}
 	}
 	ll sum(int i){ //----> sum from 1 to i;
 		ll x = 0;
 		while(i > 0){
-			x += arr[i];
+			x += A[i];
 			i -= (i & (-i));
 		}
 		return x;
